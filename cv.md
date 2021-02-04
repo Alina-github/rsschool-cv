@@ -28,7 +28,7 @@ Honesty|
 Sociability|
 Attentiveness|
 Responsibility|
-Eagerness to learn |
+Eagerness to learn|
 
 ---
 ### Skillbox
