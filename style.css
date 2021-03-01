@@ -1,0 +1,265 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+       
+}
+
+.half {
+    height: 50%;
+    background-color: white;
+    box-shadow: 10px 5px 5px 10px #eaceca; 
+}
+
+/* HEADER */
+
+.fixed-container {
+    width: 1200px;
+    height: 231px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333333;
+    color: #eaceca;
+    width: 1vh;
+    height: 231px;
+    padding: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+main {
+    width: 1200px;
+    display: flex;
+    margin: 0;
+    height: auto;
+    border-right: 1px solid #eaceca;
+}
+
+section { margin: 0; }
+
+.block1 {
+    width: 40%;
+    background-color: #eaceca;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.block2 {
+    width: 60%;
+    padding: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* PHOTO */
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.photo>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* GOAL  */
+
+h4, h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.skillset {
+    margin-bottom: 110px;
+    width: 100%;
+}
+
+.courses {
+    margin-bottom: 50px;
+}
+
+.skillset .courses {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+}
+
+.skill-images {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skill {
+    height: 110px;
+    width: 110px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+code {
+    font-size: 18px;
+}
+
+.code-example {
+    background-color: rgba(238, 238, 238, .741);
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/*PRIORITIES*/
+
+.priorities {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+}
+
+.priority-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.priorities>h4 {
+    text-align: start;
+}
+
+figure {
+    width: 60%;
+    height: 180px;
+}
+
+figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+.examples-container>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 26px;
+}
+
+.english {
+    width: 100%;
+}
+
+/* FOOTER */
+
+.social-network {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.network {
+    width: 37px;
+    height: 30px;
+    margin: 10px;
+}
+
+.network>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #333333;
+    color: #eaceca;
+    width: 1200px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 30px;
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    color: #eaceca;
+}
